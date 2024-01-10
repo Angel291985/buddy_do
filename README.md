@@ -6,8 +6,6 @@ An application that Helps you create your To do list.
 - Dependencies
 - Prerequisites
 - Installation and Setup
-- Backend API
-- Frontend pages
 - npm scripts
 - Contact
 # Features
@@ -53,3 +51,19 @@ Here are the major dependencies of the project:
 1. Install all the dependencies
 2. Start the applicatio by: npm start
 3. Go to http://localhost:3000
+# npm scripts
+At root:
+- npm run dev: Starts both backend and frontend
+- npm run dev-server: Starts only backend
+- npm run dev-client: Starts only frontend
+- npm run install-all: Installs all dependencies and dev-dependencies required at root, at frontend and at backend.
+Inside frontend folder:
+- npm start: Starts frontend in development mode
+- npm run build: Builds the frontend for production to the build folder
+- npm test: Launches the test runner in the interactive watch mode
+Inside backend folder:
+- npm run dev: Starts backend using nodemon.
+- npm start: Starts backend without nodemon.
+# Contact
+- Email: angelsiluma.03@gmail.com
+- Linkedin: https://www.linkedin.com/in/angel-siluma-0940651b8
